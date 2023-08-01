@@ -1015,7 +1015,8 @@ header .download_price a:before
 }
 
 
-.first_section .bg
+.first_section .bg,
+.first_section video
 {
     position: absolute;
     z-index: 1;
