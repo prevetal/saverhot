@@ -1,0 +1,519 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 40px;
+        height: 24px;
+        margin-bottom: 55px;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: 300px;
+    }
+
+    .swiper-button-next
+    {
+        right: 232px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 40px;
+        height: 24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 18px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 22px;
+        height: 31px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .link a
+    {
+        padding: 20px 48px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: var(--font-size);
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        height: 650px;
+        min-height: 650px;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 48px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .head:before
+    {
+        width: calc(100% - 48px);
+    }
+
+
+    .about_info .head .col_left
+    {
+        padding-right: 40px;
+    }
+
+
+    .about_info .head .data
+    {
+        width: calc(50% - 16px);
+        margin-left: auto;
+    }
+
+
+    .about_info .head .company
+    {
+        font-size: 20px;
+    }
+
+
+    .about_info .head .video_link
+    {
+        margin-top: 68px;
+    }
+
+
+    .about_info .head .video_link a
+    {
+        font-size: 16px;
+    }
+
+
+    .about_info .head .video_link .icon
+    {
+        width: 88px;
+        height: 88px;
+    }
+
+
+    .about_info .head .link
+    {
+        margin-top: 40px;
+    }
+
+
+    .about_info .head .link a
+    {
+        padding: 20px 48px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories
+    {
+        padding: 24px 0;
+    }
+
+
+    .categories .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .categories .all_link
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------
+        Price list
+    ----------------*/
+    .price_list
+    {
+        padding: 68px 0 60px;
+    }
+
+
+    .price_list .title
+    {
+        font-size: 48px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .price_list .desc
+    {
+        font-size: 22px;
+
+        width: 376px;
+    }
+
+
+    .price_list .download a
+    {
+        font-size: 20px;
+
+        width: 240px;
+        height: 240px;
+        padding: 20px;
+    }
+
+    .price_list .download a:before
+    {
+        top: 20px;
+        right: 20px;
+
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .price_list .download .type
+    {
+        font-size: 36px;
+
+        top: 24px;
+        left: 20px;
+    }
+
+
+
+    /*----------------
+        About data
+    ----------------*/
+    .about_data .images
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .about_data .data
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .about_data .block_title
+    {
+        font-size: 36px;
+
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+
+    .about_data .stats
+    {
+        margin-top: 24px;
+    }
+
+
+    .about_data .stats .label,
+    .about_data .stats .val
+    {
+        font-size: 22px;
+
+        width: calc(50% - 20px);
+    }
+
+
+    .about_data .stats .link
+    {
+        bottom: 54px;
+        left: 40px;
+
+        width: 300px;
+        padding: 0 40px;
+    }
+
+
+    .about_data .stats .link a
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Production
+    ---------------*/
+    .production
+    {
+        padding: 68px 0;
+    }
+
+
+    .production .data
+    {
+        width: 420px;
+    }
+
+
+    .production .block_title
+    {
+        font-size: 36px;
+    }
+
+
+    .production .desc
+    {
+        margin-top: 32px;
+    }
+
+
+    .production .link
+    {
+        margin-top: 40px;
+    }
+
+    .production .link a
+    {
+        padding: 20px 48px;
+    }
+
+
+    .production .stats
+    {
+        font-size: 20px;
+
+        width: 188px;
+    }
+
+    .production .stats .item:before
+    {
+        top: 4px;
+
+        width: 6px;
+        height: 6px;
+        margin-right: 12px;
+    }
+
+
+    .production .image
+    {
+        margin-right: -912px;
+    }
+
+
+
+    /*-------------------------
+        Facilities delivery
+    -------------------------*/
+    .facilities_delivery .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .facilities_delivery .link
+    {
+        margin-top: 32px;
+    }
+
+
+    .facilities_delivery .link a
+    {
+        padding: 20px 48px;
+    }
+
+
+
+    /*---------
+        Map
+    ---------*/
+    #map
+    {
+        height: 650px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .text_block
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        padding: 68px 0;
+    }
+
+
+    .reviews .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .reviews .block_head .title
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .reviews .block_head .desc
+    {
+        width: 240px;
+    }
+
+
+    .reviews .block_head .link a
+    {
+        padding: 19px 47px;
+    }
+
+
+    .reviews .review .date
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .reviews .review .company
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .reviews .review .link
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients
+    {
+        padding: 68px 0;
+    }
+
+
+    .clients .link
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        text-align: center;
+
+        order: 2;
+    }
+
+    .clients .link a
+    {
+        padding: 20px 48px;
+    }
+
+
+    .clients .logos
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .callback_btn
+    {
+        padding: 19px 39px;
+    }
+}

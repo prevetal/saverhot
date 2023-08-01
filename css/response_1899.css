@@ -1,0 +1,632 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 40px;
+    }
+
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 28px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 56px;
+        height: 33px;
+        margin-bottom: 102px;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: 348px;
+    }
+
+    .swiper-button-next
+    {
+        right: 260px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 56px;
+        height: 33px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .accordion_item .head .title
+    {
+        font-size: 22px;
+
+        width: calc(100% - 72px);
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 26px;
+        height: 36px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 32px 0 8px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 24px;
+    }
+
+
+
+    header .contacts > * + *
+    {
+        margin-top: 4px;
+    }
+
+
+
+    header .search
+    {
+        margin-left: 28px;
+    }
+
+
+
+    header .links
+    {
+        margin-left: 28px;
+    }
+
+
+    header .links > * + *
+    {
+        display: none;
+
+        margin-left: 16px;
+    }
+
+
+    header .links a
+    {
+        padding: 10px 19px;
+    }
+
+
+
+    header .menu
+    {
+        margin-left: 28px;
+    }
+
+
+
+    header .download_price
+    {
+        right: 40px;
+
+        margin-top: 4px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .link a
+    {
+        padding: 30px 60px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block img.left
+    {
+        max-width: calc(50% - 28px);
+        margin-right: 28px;
+    }
+
+    .text_block img.right
+    {
+        max-width: calc(50% - 28px);
+        margin-left: 28px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 650px;
+        padding-top: 192px;
+        padding-bottom: 192px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 88px;
+    }
+
+
+    .first_section .scroll_down
+    {
+        bottom: 60px;
+        left: 40px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages:before
+    {
+        width: calc(100% - 80px);
+    }
+
+
+
+    .advantages .item
+    {
+        padding: 60px 16px 40px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 26px;
+    }
+
+
+    .advantages .item .desc
+    {
+        font-size: 17px;
+
+        margin-top: 28px;
+    }
+
+
+    .advantages .item .arrow
+    {
+        width: 26px;
+        height: 36px;
+        margin-top: 48px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .head:before
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .about_info .head .col_left
+    {
+        width: calc(50% - 60px);
+        padding: 70px 0 80px;
+        padding-right: 72px;
+    }
+
+
+    .about_info .head .company
+    {
+        font-size: 26px;
+    }
+
+
+    .about_info .head .video_link
+    {
+        margin-top: 200px;
+    }
+
+    .about_info .head .video_link a
+    {
+        font-size: 22px;
+    }
+
+    .about_info .head .video_link .icon
+    {
+        width: 116px;
+        height: 116px;
+        margin-left: 24px;
+    }
+
+
+    .about_info .head .data
+    {
+        padding: 100px 0;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .category .name
+    {
+        top: 40px;
+
+        padding: 0 40px;
+    }
+
+
+    .categories .all_link
+    {
+        font-size: 32px;
+    }
+
+
+    .categories .all_link .name
+    {
+        top: 44px;
+
+        padding: 0 40px;
+    }
+
+
+
+    /*----------------
+        Price list
+    ----------------*/
+    .price_list
+    {
+        padding: 100px 0 80px;
+    }
+
+
+    .price_list .title
+    {
+        font-size: 88px;
+
+        margin-bottom: 80px;
+    }
+
+
+    .price_list .desc
+    {
+        font-size: 32px;
+
+        width: 548px;
+    }
+
+
+    .price_list .download a
+    {
+        font-size: 30px;
+
+        width: 380px;
+        height: 380px;
+        padding: 48px 40px;
+    }
+
+    .price_list .download a:before
+    {
+        top: 28px;
+        right: 28px;
+    }
+
+
+    .price_list .download .type
+    {
+        font-size: 58px;
+
+        top: 48px;
+        left: 40px;
+    }
+
+
+
+    /*----------------
+        About data
+    ----------------*/
+    .about_data .images
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .about_data .data
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .about_data .block_title
+    {
+        font-size: 56px;
+
+        width: 480px;
+        margin-bottom: 60px;
+    }
+
+
+    .about_data .stats .item + .item
+    {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+
+
+    .about_data .stats .label,
+    .about_data .stats .val
+    {
+        font-size: 32px;
+
+        width: calc(50% - 30px);
+    }
+
+
+    .about_data .stats .link
+    {
+        bottom: 88px;
+        left: 240px;
+
+        width: 398px;
+        padding: 0 80px 0 72px;
+    }
+
+
+    .about_data .stats .link a
+    {
+        padding: 28px 24px;
+    }
+
+
+
+    /*---------------
+        Production
+    ---------------*/
+    .production
+    {
+        padding: 100px 0;
+    }
+
+
+    .production .data
+    {
+        width: 780px;
+    }
+
+
+    .production .block_title
+    {
+        font-size: 56px;
+
+        width: 700px;
+    }
+
+
+    .production .desc
+    {
+        margin-top: 80px;
+    }
+
+
+    .production .link
+    {
+        margin-top: 100px;
+    }
+
+
+    .production .stats
+    {
+        font-size: 32px;
+
+        width: 400px;
+    }
+
+    .production .stats > * + *
+    {
+        margin-top: 68px;
+    }
+
+
+
+    /*-------------------------
+        Facilities delivery
+    -------------------------*/
+    .facilities_delivery .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .facilities_delivery .info
+    {
+        width: 492px;
+    }
+
+
+    .facilities_delivery .link
+    {
+        margin-top: 80px;
+    }
+
+
+    .facilities_delivery .accordion
+    {
+        width: 760px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .FAQ .accordion_item .data
+    {
+        padding: 40px 0 24px;
+    }
+
+
+    .FAQ .text_block
+    {
+        font-size: 26px;
+
+        width: 672px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        padding: 100px 0;
+    }
+
+
+    .reviews .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .reviews .block_head .desc
+    {
+        width: 372px;
+    }
+
+
+    .reviews .block_head .link a
+    {
+        padding: 30px 60px;
+    }
+
+
+    .reviews .review
+    {
+        padding: 27px;
+    }
+
+
+    .reviews .review .date
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .reviews .review .company
+    {
+        font-size: 22px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .reviews .review .link
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .clients .link
+    {
+        margin-right: 0;
+    }
+
+    .clients .link a
+    {
+        padding: 30px 60px;
+    }
+
+
+    .clients .logos
+    {
+        width: 1024px;
+        margin-left: auto;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 80px;
+    }
+
+
+
+    footer .logo
+    {
+        margin-right: 60px;
+    }
+
+
+    footer .contacts
+    {
+        width: 244px;
+    }
+
+
+    footer .links + .links
+    {
+        margin-left: 60px;
+    }
+}

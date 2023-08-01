@@ -1,0 +1,681 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 48px;
+        height: 29px;
+        margin-bottom: 76px;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: 336px;
+    }
+
+    .swiper-button-next
+    {
+        right: 260px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 48px;
+        height: 29px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item + .accordion_item
+    {
+        margin-top: 28px;
+    }
+
+
+    .accordion_item .head
+    {
+        padding-bottom: 28px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 20px;
+
+        width: calc(100% - 60px);
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 24px;
+        height: 33px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 28px 0 4px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        margin-right: 0;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+    header .search,
+    header .links
+    {
+        margin-left: 40px;
+    }
+
+
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .download_price a
+    {
+        width: 112px;
+        height: 112px;
+        padding: 12px;
+
+        border-width: 4px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .link a
+    {
+        padding: 24px 60px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 18px;
+    }
+
+
+    .text_block img.left
+    {
+        max-width: calc(50% - 24px);
+        margin-right: 24px;
+    }
+
+    .text_block img.right
+    {
+        max-width: calc(50% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .data
+    {
+        width: 872px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 64px;
+    }
+
+
+    .first_section .scroll_down
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 68px 0;
+    }
+
+    .advantages:before
+    {
+        top: 34px;
+    }
+
+
+    .advantages .item
+    {
+        padding: 48px 12px 32px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 22px;
+    }
+
+
+    .advantages .item .desc
+    {
+        font-size: 15px;
+
+        margin-top: 24px;
+    }
+
+
+    .advantages .item .arrow
+    {
+        width: 24px;
+        height: 33px;
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .head .col_left
+    {
+        width: calc(50% - 60px);
+        padding: 68px 0;
+        padding-right: 68px;
+    }
+
+
+    .about_info .head .company
+    {
+        font-size: 24px;
+    }
+
+
+    .about_info .head .company .logo img
+    {
+        max-width: calc(100% + 8px);
+        margin-right: -8px;
+    }
+
+
+    .about_info .head .video_link
+    {
+        margin-top: 100px;
+    }
+
+
+    .about_info .head .video_link a
+    {
+        font-size: 20px;
+    }
+
+
+    .about_info .head .video_link .icon
+    {
+        width: 108px;
+        height: 108px;
+        margin-left: 20px;
+    }
+
+
+    .about_info .head .data
+    {
+        width: calc(50% - 8px);
+        margin-left: 8px;
+        padding: 68px 0;
+    }
+
+
+    .about_info .head .link
+    {
+        margin-top: 60px;
+    }
+
+
+    .about_info .head .link a
+    {
+        padding: 30px 60px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .category
+    {
+        font-size: 18px;
+    }
+
+
+    .categories .category .name
+    {
+        top: 32px;
+
+        padding: 0 32px;
+    }
+
+
+
+    .categories .all_link
+    {
+        font-size: 26px;
+    }
+
+
+    .categories .all_link .name
+    {
+        top: 36px;
+
+        padding: 0 32px;
+    }
+
+
+    .categories .download_price a
+    {
+        width: 112px;
+        height: 112px;
+        padding: 12px;
+
+        border-width: 4px;
+    }
+
+
+
+    /*----------------
+        Price list
+    ----------------*/
+    .price_list
+    {
+        padding: 80px 0 68px;
+    }
+
+
+    .price_list .title
+    {
+        font-size: 68px;
+
+        margin-bottom: 68px;
+    }
+
+
+    .price_list .desc
+    {
+        font-size: 28px;
+
+        width: 480px;
+    }
+
+
+    .price_list .download a
+    {
+        font-size: 26px;
+
+        width: 340px;
+        height: 340px;
+        padding: 40px;
+
+        border-width: 8px;
+    }
+
+    .price_list .download a:before
+    {
+        top: 24px;
+        right: 24px;
+
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .price_list .download .type
+    {
+        font-size: 48px;
+
+        top: 40px;
+    }
+
+
+
+    /*----------------
+        About data
+    ----------------*/
+    .about_data .images
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .about_data .data
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .about_data .block_title
+    {
+        font-size: 48px;
+
+        width: 400px;
+        margin-bottom: 48px;
+    }
+
+
+    .about_data .stats .label,
+    .about_data .stats .val
+    {
+        font-size: 28px;
+
+        width: calc(50% - 24px);
+    }
+
+
+    .about_data .stats .item + .item
+    {
+        margin-top: 32px;
+        padding-top: 32px;
+    }
+
+
+    .about_data .stats .link
+    {
+        bottom: 72px;
+        left: 160px;
+
+        width: 380px;
+        padding: 0 60px;
+    }
+
+
+    .about_data .stats .link a
+    {
+        padding: 24px;
+    }
+
+
+
+    /*---------------
+        Production
+    ---------------*/
+    .production
+    {
+        padding: 80px 0;
+    }
+
+
+    .production .data
+    {
+        width: 600px;
+    }
+
+
+    .production .block_title
+    {
+        font-size: 48px;
+
+        width: 100%;
+    }
+
+
+    .production .desc
+    {
+        margin-top: 60px;
+    }
+
+
+    .production .link
+    {
+        margin-top: 60px;
+    }
+
+    .production .link a
+    {
+        padding: 24px 60px;
+    }
+
+
+    .production .stats
+    {
+        font-size: 28px;
+
+        width: 360px;
+    }
+
+
+    .production .stats > * + *
+    {
+        margin-top: 48px;
+    }
+
+
+    .production .stats .item:before
+    {
+        top: 7px;
+
+        width: 8px;
+        height: 8px;
+        margin-right: 18px;
+    }
+
+
+    .production .image
+    {
+        margin-right: -900px;
+    }
+
+
+
+    /*-------------------------
+        Facilities delivery
+    -------------------------*/
+    .facilities_delivery .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .facilities_delivery .info
+    {
+        width: 440px;
+    }
+
+
+    .facilities_delivery .link
+    {
+        margin-top: 60px;
+    }
+
+    .facilities_delivery .link a
+    {
+        padding: 24px 60px;
+    }
+
+
+    .facilities_delivery .accordion
+    {
+        width: calc(100% - 520px);
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .FAQ .accordion_item .data
+    {
+        padding: 32px 0 20px;
+    }
+
+
+    .FAQ .text_block
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        padding: 80px 0;
+    }
+
+
+    .reviews .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .reviews .block_head .title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .reviews .block_head .desc
+    {
+        width: 300px;
+    }
+
+
+    .reviews .block_head .link a
+    {
+        padding: 23px 59px;
+    }
+
+
+    .reviews .review .date
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .reviews .review .company
+    {
+        font-size: 20px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .reviews .review .link
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients
+    {
+        padding: 80px 0;
+    }
+
+
+    .clients .link a
+    {
+        padding: 24px 60px;
+    }
+
+
+    .clients .logos
+    {
+        width: calc(100% - 268px);
+    }
+
+
+    .clients .logos .item
+    {
+        height: 100px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 40px 0;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 60px;
+    }
+
+
+    footer .logo
+    {
+        margin-right: auto;
+    }
+
+
+    footer .callback_btn
+    {
+        padding: 23px 47px;
+    }
+
+
+    footer .links + .links
+    {
+        margin-left: 40px;
+    }
+}
