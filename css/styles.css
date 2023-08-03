@@ -966,18 +966,6 @@ header .download_price a:before
     border-radius: 15px;
 }
 
-.text_block img.left
-{
-    max-width: calc(50% - 40px);
-    margin-right: 40px;
-}
-
-.text_block img.right
-{
-    max-width: calc(50% - 40px);
-    margin-left: 40px;
-}
-
 .text_block img.loaded
 {
     height: auto !important;
@@ -2173,6 +2161,41 @@ header .download_price a:before
     width: 995px;
     max-width: 100%;
     margin-left: auto;
+}
+
+
+.facilities_delivery .case
+{
+    color: currentColor;
+    font-size: 24px;
+    line-height: 147%;
+
+    display: flex;
+
+    text-decoration: none;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.facilities_delivery .case .name
+{
+    width: calc(100% - 475px);
+    padding-top: 35px;
+}
+
+
+.facilities_delivery .case img
+{
+    display: block;
+
+    width: 455px;
+    max-width: 100%;
+
+    border-radius: 15px;
 }
 
 

@@ -143,22 +143,6 @@
 
 
 
-    /*----------------
-        Typography
-    ----------------*/
-    .text_block img.right,
-    .text_block img.left
-    {
-        float: none;
-
-        width: 100%;
-        max-width: 100%;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-
-
     /*-------------------
         First section
     -------------------*/
@@ -576,6 +560,26 @@
     .facilities_delivery .link a
     {
         padding: 22px 55px;
+    }
+
+
+    .facilities_delivery .case
+    {
+        font-size: 16px;
+    }
+
+
+    .facilities_delivery .case .name
+    {
+        width: 100%;
+        padding-top: 0;
+    }
+
+
+    .facilities_delivery .case img
+    {
+        width: 100%;
+        margin-top: 20px;
     }
 
 

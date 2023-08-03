@@ -160,19 +160,6 @@
     }
 
 
-    .text_block img.left
-    {
-        max-width: calc(50% - 28px);
-        margin-right: 28px;
-    }
-
-    .text_block img.right
-    {
-        max-width: calc(50% - 28px);
-        margin-left: 28px;
-    }
-
-
 
     /*-------------------
         First section
@@ -493,6 +480,25 @@
     .facilities_delivery .accordion
     {
         width: 760px;
+    }
+
+
+    .facilities_delivery .case
+    {
+        font-size: 20px;
+    }
+
+
+    .facilities_delivery .case .name
+    {
+        width: calc(100% - 400px);
+        padding-top: 24px;
+    }
+
+
+    .facilities_delivery .case img
+    {
+        width: 380px;
     }
 
 
