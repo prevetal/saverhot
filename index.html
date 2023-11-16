@@ -59,19 +59,19 @@
 							</div>
 						</div>
 
-						<div class="search modal_cont">
-							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+						<div class="search">
+							<button class="btn">
 								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
 							</button>
-
-							<div class="mini_modal" id="search_modal">
-
-							</div>
 						</div>
 
 						<div class="links">
 							<div><a href="/">КАТАЛОГ</a></div>
-							<div><a href="/">Оформить КП</a></div>
+
+							<div><a href="/">
+								<span>Оформить КП</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+							</a></div>
 						</div>
 
 						<nav class="menu row">
@@ -80,7 +80,17 @@
 							</div>
 
 							<div class="menu_item">
-								<a href="/">ПРОИЗВОДСТВО</a>
+								<a href="/" class="sub_link">ПРОИЗВОДСТВО</a>
+
+								<div class="sub_menu">
+									<div><a href="/">О компании</a></div>
+									<div><a href="/">Производство</a></div>
+									<div><a href="/">Наши обьекты</a></div>
+									<div><a href="/">База знаний</a></div>
+									<div><a href="/">Сервисы</a></div>
+									<div><a href="/">Услуги</a></div>
+									<div><a href="/">Контакты</a></div>
+								</div>
 							</div>
 
 							<div class="menu_item">
@@ -105,7 +115,7 @@
 						</nav>
 
 						<div class="download_price">
-							<a href="/" download>Скачать ПРАЙС</a>
+							<button class="btn custom_modal_btn" data-modal="get_price_list_modal">Скачать ПРАЙС</button>
 						</div>
 					</div>
 				</header>
@@ -129,8 +139,17 @@
 						<div class="cont">
 							<div class="menu">
 								<div><a href="/">О компании</a></div>
-								<div><a href="/">КАТАЛОГ</a></div>
-								<div><a href="/">ПРОИЗВОДСТВО</a></div>
+
+								<div><a href="#" class="sub_link" data-sub=".sub_menu1">
+									<span>КАТАЛОГ</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="#" class="sub_link" data-sub=".sub_menu2">
+									<span>ПРОИЗВОДСТВО</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
 								<div><a href="/">НАШИ ОБЪЕКТЫ</a></div>
 								<div><a href="/">БАЗА ЗНАНИЙ</a></div>
 								<div><a href="/">СЕРВИСЫ</a></div>
@@ -149,12 +168,138 @@
 							</div>
 
 							<div class="links">
-								<div><a href="/">Оформить КП</a></div>
+								<div><a href="/">
+									<span>Оформить КП</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								</a></div>
 							</div>
 						</div>
 
 						<div class="download_price">
-							<a href="/" download>Скачать ПРАЙС</a>
+							<button class="btn custom_modal_btn" data-modal="get_price_list_modal">Скачать ПРАЙС</button>
+						</div>
+
+
+						<div class="sub_menu sub_menu1">
+							<div class="back">
+								<a href="/">
+									<span>Назад</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a>
+							</div>
+
+							<div class="items">
+								<div><a href="/">
+									<span>Трубы ППУ</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Отводы стальные ППУ</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Тройники стальные ППУ</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Тройники стальные</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Тройники параллельные</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Тройниковые ответвления</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Тройниковые ответвления</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Неподвижные опоры</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Скользящие опоры</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Концевые элементы</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Элементы трубопроводов ППУ</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Переходы ППУ</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Шаровые краны ППУ</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+							</div>
+						</div>
+
+						<div class="sub_menu sub_menu2">
+							<div class="back">
+								<a href="/">
+									<span>Назад</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a>
+							</div>
+
+							<div class="items">
+								<div><a href="/">
+									<span>О компании</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Производство</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Наши обьекты</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>База знаний</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Сервисы</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Услуги</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+
+								<div><a href="/">
+									<span>Контакты</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a></div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -166,7 +311,7 @@
 							<div class="title">САЙВЕРХОТ &mdash; ваш надежный поставщик труб ППУ</div>
 
 							<div class="download">
-								<a href="/" download>Скачать ПРАЙС</a>
+								<button class="btn custom_modal_btn" data-modal="get_price_list_modal">Скачать ПРАЙС</button>
 							</div>
 						</div>
 					</div>
@@ -184,45 +329,75 @@
 				<section class="advantages">
 					<div class="cont">
 						<div class="row">
-							<div class="item">
+							<div><div class="item">
 								<div class="name">ОТВЕЧАЕМ</div>
 
 								<div class="desc">Выставляем счет за<br> 45 минут </div>
 
 								<svg class="arrow"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
-							</div>
 
-							<div class="item">
+								<div class="exp">Производим трубы в полиэтиленовой и оцинкованной оболочке для тепловых сетей и систем водоснабжения. Делаем все виды фасонных элементов, включая нестандартные. </div>
+
+								<button class="btn modal_btn" data-modal="advantage1_modal">
+									<div><svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg></div>
+								</button>
+							</div></div>
+
+							<div><div class="item">
 								<div class="name">ПРОИЗВОДИМ</div>
 
 								<div class="desc">Средний цикл заказа<br> 7 дней</div>
 
 								<svg class="arrow"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
-							</div>
 
-							<div class="item">
+								<div class="exp">Производим трубы в полиэтиленовой и оцинкованной оболочке для тепловых сетей и систем водоснабжения. Делаем все виды фасонных элементов, включая нестандартные. </div>
+
+								<button class="btn modal_btn" data-modal="advantage1_modal">
+									<div><svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg></div>
+								</button>
+							</div></div>
+
+							<div><div class="item">
 								<div class="name">КОМПЛЕКТУЕМ</div>
 
 								<div class="desc">Фасонными частями<br> КЗС, СОДК</div>
 
 								<svg class="arrow"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
-							</div>
 
-							<div class="item">
+								<div class="exp">Производим трубы в полиэтиленовой и оцинкованной оболочке для тепловых сетей и систем водоснабжения. Делаем все виды фасонных элементов, включая нестандартные. </div>
+
+								<button class="btn modal_btn" data-modal="advantage1_modal">
+									<div><svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg></div>
+								</button>
+							</div></div>
+
+							<div><div class="item">
 								<div class="name">ДОСТАВЛЯЕМ</div>
 
 								<div class="desc">По России и СНГ, своими<br> машинами или ж/д</div>
 
 								<svg class="arrow"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
-							</div>
 
-							<div class="item">
+								<div class="exp">Производим трубы в полиэтиленовой и оцинкованной оболочке для тепловых сетей и систем водоснабжения. Делаем все виды фасонных элементов, включая нестандартные. </div>
+
+								<button class="btn modal_btn" data-modal="advantage1_modal">
+									<div><svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg></div>
+								</button>
+							</div></div>
+
+							<div><div class="item">
 								<div class="name">ГАРАНТИРУЕМ</div>
 
 								<div class="desc">25 лет бесперебойной эксплуатации</div>
 
 								<svg class="arrow"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
-							</div>
+
+								<div class="exp">Производим трубы в полиэтиленовой и оцинкованной оболочке для тепловых сетей и систем водоснабжения. Делаем все виды фасонных элементов, включая нестандартные. </div>
+
+								<button class="btn modal_btn" data-modal="advantage1_modal">
+									<div><svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg></div>
+								</button>
+							</div></div>
 						</div>
 					</div>
 				</section>
@@ -331,29 +506,29 @@
 									</a>
 
 									<div class="download_price">
-										<a href="/" download>Скачать ПРАЙС</a>
+										<button class="btn custom_modal_btn" data-modal="get_price_list_modal">Скачать каталог</button>
 									</div>
 								</div>
 							</div>
 
 							<div class="mob_download">
-								<a href="/" download> Скачать каталог</a>
+								<button class="btn custom_modal_btn" data-modal="get_price_list_modal">Скачать ПРАЙС</button>
 							</div>
 						</div>
 					</section>
 
 
 					<section class="price_list">
-						<div class="cont row">
+						<div class="cont">
 							<div class="title">ПРАЙС-ЛИСТ</div>
 
-							<div class="desc">Отправим прайс<br> на трубы, фасонные изделия и комплектующие</div>
+							<div class="desc">на трубы, фасонные изделия<br> и комплектующие</div>
 
 							<div class="download">
-								<a href="/" download>
+								<button class="btn custom_modal_btn" data-modal="get_price_list_modal">
 									<div class="type">PDF</div>
 									<div>ПОЛУЧИТЬ<br> ПРАЙС</div>
-								</a>
+								</button>
 							</div>
 						</div>
 
@@ -856,7 +1031,7 @@
 						</div>
 					</div>
 
-					<button class="callback_btn">ЗАКАЗАТЬ ЗВОНОК</button>
+					<button class="callback_btn custom_modal_btn" data-modal="get_price_list_modal">ЗАКАЗАТЬ ЗВОНОК</button>
 
 					<div class="links">
 						<div><a href="/">КАТАЛОГ</a></div>
@@ -891,10 +1066,100 @@
 		</div>
 
 
+		<section id="search_modal">
+			<div class="top">
+				<button class="close_btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+				</button>
+			</div>
+
+			<div class="cont">
+				<form action="">
+					<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу">
+
+					<button type="submit" class="submit_btn">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+						<span>найти</span>
+					</button>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="custom_modal" id="get_price_list_modal">
+			<div class="head">
+				<div class="cont row">
+					<div class="logo">
+						<img src="images/logo_big.svg" alt="">
+					</div>
+				</div>
+			</div>
+
+			<button class="close_btn">
+				<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+			</button>
+
+			<div class="scroll">
+				<div class="modal_title">Заявка на прайс-лист</div>
+
+				<div class="modal_desc">Отправим прайс на трубы, фасонные изделия и комплектующие!</div>
+
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ваше имя:<span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+							<div class="label">Телефон:<span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">E-mail:<span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить</button>
+					</div>
+
+					<div class="agree">
+						<label class="checkbox">
+							<input type="checkbox" name="agree" checked>
+
+							<div class="check">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+							</div>
+
+							<div>Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных *</div>
+						</label>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="advantage1_modal">
+			<div class="modal_title">ОТВЕЧАЕМ</div>
+
+			<div class="modal_desc">Выставляем счет за<br> 45 минут</div>
+
+			<div class="text">Производим трубы в полиэтиленовой и оцинкованной оболочке для тепловых сетей и систем водоснабжения. Делаем все виды фасонных элементов, включая нестандартные.</div>
+		</section>
+
+
 		<!-- Подключение javascript файлов -->
 		<script src="js/jquery-3.6.3.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/imask.js"></script>
 		<script src="js/fancybox.js"></script>
 		<script src="js/scripts.js"></script>
 

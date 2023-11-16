@@ -1,9 +1,20 @@
 <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 11" id="ic_arr_hor">
+    <path d="M1 1.25L5.5 5.75L1 10.25" stroke="currentColor" fill="none"></path>
+  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 36" id="ic_arrow_hor">
     <path d="M63 18L3 18M3 18L19 34M3 18L19 2" stroke="currentColor" stroke-width="4" fill="none"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 50" id="ic_arrow_ver">
     <path d="M18 48L2 32M18 48L34 32M18 48V2" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 20" id="ic_cart">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.764572 0.853058C0.845806 0.446888 1.24092 0.183475 1.64709 0.264709L2.69645 0.474581C3.8817 0.711631 4.77322 1.69482 4.89349 2.89754L4.97875 3.75014H18.5542C20.5385 3.75014 21.9944 5.61488 21.5132 7.53988L20.3904 12.0309C19.9174 13.9229 18.2175 15.2501 16.2673 15.2501H7.27436C5.8823 15.2501 4.7098 14.2099 4.54394 12.8278L3.55447 4.58215L3.40093 3.0468C3.34626 2.50011 2.94103 2.0532 2.40228 1.94545L1.35292 1.73558C0.94675 1.65435 0.683338 1.25923 0.764572 0.853058ZM8.49986 10.75C8.08565 10.75 7.74986 11.0858 7.74986 11.5C7.74986 11.9142 8.08565 12.25 8.49986 12.25H12.4999C12.9141 12.25 13.2499 11.9142 13.2499 11.5C13.2499 11.0858 12.9141 10.75 12.4999 10.75H8.49986Z" fill="currentColor"></path>
+    <circle cx="8" cy="18" r="1.5" fill="currentColor"></circle>
+    <circle cx="17" cy="18" r="1.5" fill="currentColor"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 8" id="ic_check">
+    <path d="M1 3.5L4.5 7L10.5 1" stroke="currentColor" fill="none"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="ic_close">
     <path d="M15.5 1L8.25 8.25M1 15.5L8.25 8.25M8.25 8.25L1 1L15.5 15.5" stroke="currentColor" fill="none"></path>
@@ -12,6 +23,9 @@
     <path d="M1.375 0.5H20.625" stroke="currentColor" stroke-linecap="round" fill="none"></path>
     <path d="M1.375 7.5H20.625" stroke="currentColor" stroke-linecap="round" fill="none"></path>
     <path d="M1.375 14.5H20.625" stroke="currentColor" stroke-linecap="round" fill="none"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" id="ic_plus">
+    <path d="M4 0.883545V4M4 7.11645V4M4 4L0.883545 4L7.11645 4" stroke="currentColor" fill="none"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78 78" id="ic_scroll_down">
     <circle cx="39" cy="39" r="38.5" stroke="currentColor" fill="none"></circle>

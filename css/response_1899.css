@@ -141,6 +141,46 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .cont
+    {
+        padding-top: 192px;
+        padding-bottom: 192px;
+    }
+
+
+    .page_head .title
+    {
+        font-size: 88px;
+    }
+
+
+    .page_head .scroll_down
+    {
+        bottom: 60px;
+        left: 40px;
+    }
+
+
+    .page_head .btns
+    {
+        bottom: -36px;
+    }
+
+    .page_head .btns .btn
+    {
+        height: 72px;
+    }
+
+    .page_head .btns .btn + .btn
+    {
+        margin-left: 48px;
+    }
+
+
+
     /*----------------
         Block head
     ----------------*/
@@ -304,27 +344,24 @@
     ----------------*/
     .price_list
     {
-        padding: 100px 0 80px;
+        padding: 100px 0 40px;
     }
 
 
     .price_list .title
     {
-        font-size: 88px;
-
-        margin-bottom: 80px;
+        font-size: 112px;
     }
 
 
     .price_list .desc
     {
-        font-size: 32px;
-
-        width: 548px;
+        font-size: 36px;
+        line-height: calc(100% + 4px);
     }
 
 
-    .price_list .download a
+    .price_list .download .btn
     {
         font-size: 30px;
 
@@ -333,7 +370,7 @@
         padding: 48px 40px;
     }
 
-    .price_list .download a:before
+    .price_list .download .btn:before
     {
         top: 28px;
         right: 28px;
@@ -609,6 +646,491 @@
 
 
 
+    /*---------------------
+        Production info
+    ---------------------*/
+    .production_info
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .production_info .row > *
+    {
+        padding-top: 80px;
+        padding-right: 64px;
+        padding-bottom: 64px;
+    }
+
+    .production_info .row > * + *
+    {
+        padding-right: 0;
+        padding-left: 64px;
+    }
+
+
+    .production_info .desc
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------------
+        Production steps
+    ----------------------*/
+    .production_steps .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .production_steps .step + .step
+    {
+        margin-top: 24px;
+    }
+
+
+    .production_steps .step .head
+    {
+        padding-bottom: 48px;
+    }
+
+
+    .production_steps .step .head .number
+    {
+        font-size: 112px;
+
+        width: 112px;
+    }
+
+
+    .production_steps .step .head .name
+    {
+        font-size: 20px;
+
+        width: 280px;
+    }
+
+    .production_steps .step .head .name:after
+    {
+        margin-left: 24px;
+    }
+
+
+    .production_steps .step .head .desc_spoler_btn
+    {
+        top: 80px;
+    }
+
+
+    .production_steps .step .head .desc
+    {
+        width: 580px;
+        margin-left: 416px;
+    }
+
+
+    .production_steps .step .swiper
+    {
+        padding-bottom: 48px;
+    }
+
+
+    .production_steps .step .item .desc
+    {
+        width: 680px;
+        padding: 32px 40px;
+    }
+
+
+
+    /*---------------------------
+        Production advantages
+    ---------------------------*/
+    .production_advantages .lines
+    {
+        margin-bottom: 160px;
+    }
+
+
+    .production_advantages .lines:before
+    {
+        height: 124px;
+    }
+
+
+    .production_advantages .data
+    {
+        width: 1024px;
+    }
+
+
+    .production_advantages .row
+    {
+        margin-bottom: -60px;
+        margin-left: -60px;
+    }
+
+    .production_advantages .row > *
+    {
+        width: calc(50% - 60px);
+        margin-bottom: 60px;
+        margin-left: 60px;
+    }
+
+
+    .production_advantages .item .name
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .production_advantages .item .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .production_advantages .item .desc > *:before
+    {
+        top: 8px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 124px 0;
+    }
+
+
+    .action_block .info
+    {
+        width: 508px;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: 28px;
+
+        margin-top: 48px;
+    }
+
+
+    .action_block .btn
+    {
+        width: 360px;
+        height: 80px;
+        margin-left: 200px;
+    }
+
+
+
+    /*--------------
+        About_us
+    --------------*/
+    .about_us
+    {
+        padding-bottom: 64px;
+    }
+
+
+    .about_us .row > *
+    {
+        padding-top: 60px;
+        padding-right: 80px;
+        padding-bottom: 40px;
+    }
+
+    .about_us .row > * + *
+    {
+        padding-right: 0;
+        padding-left: 80px;
+    }
+
+
+    .about_us .desc
+    {
+        font-size: 20px;
+    }
+
+
+
+    .about_us .history .swiper-slide
+    {
+        width: 600px;
+    }
+
+
+    .about_us .history .swiper-button-next,
+    .about_us .history .swiper-button-prev
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .about_us .history .item .thumb
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .about_us .history .item .desc
+    {
+        font-size: 20px;
+
+        width: calc(100% - 144px);
+    }
+
+
+
+    .about_us .slogan
+    {
+        font-size: 32px;
+
+        width: 1264px;
+        margin-top: 116px;
+    }
+
+
+
+    .about_us .why
+    {
+        margin-top: 100px;
+    }
+
+
+    .about_us .why .image
+    {
+        width: 600px;
+        min-height: 800px;
+    }
+
+
+    .about_us .why .data
+    {
+        width: calc(100% - 680px);
+        padding-top: 16px;
+    }
+
+
+    .about_us .why .items > *
+    {
+        font-size: 20px;
+
+        padding-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Work about us
+    -------------------*/
+    .work_about_us
+    {
+        padding: 100px 0 60px;
+    }
+
+
+    .work_about_us .stats .item + .item
+    {
+        margin-left: 120px;
+    }
+
+
+    .work_about_us .stats .item .val
+    {
+        font-size: 56px;
+    }
+
+
+
+    /*------------------------
+        Working conditions
+    ------------------------*/
+    .working_conditions
+    {
+        padding-top: 80px;
+    }
+
+
+    .working_conditions .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .working_conditions .item
+    {
+        width: 280px;
+        padding-bottom: 60px;
+    }
+
+
+    .working_conditions .item .icon
+    {
+        width: 92px;
+        height: 92px;
+        margin-bottom: 24px;
+    }
+
+
+    .working_conditions .item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .working_conditions .item .desc
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery
+    {
+        padding: 80px 0;
+    }
+
+
+    .gallery .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .gallery .swiper-button-next,
+    .gallery .swiper-button-prev
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Manager
+    -------------*/
+    .manager .photo
+    {
+        width: 380px;
+        height: 480px;
+    }
+
+
+    .manager .post
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .manager .item + .item
+    {
+        margin-top: 32px;
+    }
+
+
+    .manager .item .val
+    {
+        font-size: 20px;
+    }
+
+    .manager .item .val.name
+    {
+        font-size: 24px;
+    }
+
+
+    .manager .questionnaire
+    {
+        width: 360px;
+    }
+
+
+    .manager .questionnaire .btn
+    {
+        height: 80px;
+    }
+
+
+    .manager .questionnaire .exp
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .vacancies .accordion_item + .accordion_item
+    {
+        margin-top: 28px;
+    }
+
+
+    .vacancies .accordion_item .head .title
+    {
+        font-size: 24px;
+
+        width: calc(100% - 200px);
+    }
+
+
+    .vacancies .accordion_item .head .desc
+    {
+        font-size: 14px;
+
+        width: calc(100% - 200px);
+    }
+
+
+    .vacancies .accordion_item .head .salary
+    {
+        font-size: 24px;
+
+        right: 60px;
+    }
+
+
+    .vacancies .accordion_item .data
+    {
+        padding-bottom: 24px;
+    }
+
+
+    .vacancies .all_link
+    {
+        margin-top: 48px;
+    }
+
+
+    .vacancies .all_link a
+    {
+        line-height: 68px;
+
+        width: 240px;
+        height: 68px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -634,5 +1156,34 @@
     footer .links + .links
     {
         margin-left: 60px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #search_modal
+    {
+        padding: 24px 0;
+    }
+
+
+    #search_modal form .input
+    {
+        font-size: 20px;
+
+        height: 60px;
+    }
+
+
+    #search_modal form .submit_btn
+    {
+        height: 60px;
+    }
+
+    #search_modal form .submit_btn .icon
+    {
+        margin-right: 20px;
     }
 }

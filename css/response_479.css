@@ -42,6 +42,30 @@
     }
 
 
+    .page_head .btns
+    {
+        top: 100%;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        width: 244px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+
+    .page_head .btns .btn
+    {
+        height: 56px;
+    }
+
+    .page_head .btns .btn + .btn
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
 
     /*-------------------
         First section
@@ -58,7 +82,7 @@
     ----------------*/
     .advantages .item
     {
-        padding: 22px 12px 16px;
+        padding: 19px 12px 33px;
 
         border-radius: 10px;
     }
@@ -75,6 +99,11 @@
         font-size: 10px;
 
         margin-top: 16px;
+    }
+
+    .advantages .item .desc br
+    {
+        display: none;
     }
 
 
@@ -169,7 +198,7 @@
 
     .price_list .title
     {
-        font-size: 36px;
+        font-size: 32px;
     }
 
 
@@ -179,7 +208,7 @@
     }
 
 
-    .price_list .download a
+    .price_list .download .btn
     {
         font-size: 15px;
     }
@@ -250,5 +279,126 @@
     .clients
     {
         padding: 52px 0;
+    }
+
+
+
+    /*--------------
+        About_us
+    --------------*/
+    .about_us .history
+    {
+        margin-top: 52px;
+    }
+
+
+
+    .about_us .slogan
+    {
+        margin-top: 52px;
+    }
+
+
+
+    .about_us .why
+    {
+        margin-top: 52px;
+    }
+
+
+    .about_us .why .items > *
+    {
+        padding-top: 16px;
+    }
+
+    .about_us .why .items > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------------
+        Work about us
+    -------------------*/
+    .work_about_us
+    {
+        padding: 200px 0 40px;
+    }
+
+
+    .work_about_us .stats .item .val
+    {
+        font-size: 24px;
+    }
+
+
+    .work_about_us .row
+    {
+        padding-top: 20px;
+    }
+
+
+
+    /*------------------------
+        Working conditions
+    ------------------------*/
+    .working_conditions .block_head
+    {
+        display: none;
+    }
+
+
+    .working_conditions .item
+    {
+        text-align: center;
+    }
+
+
+    .working_conditions .item .icon
+    {
+        width: 44px;
+        height: 44px;
+        margin: 0 auto 12px;
+    }
+
+
+    .working_conditions .item .name
+    {
+        font-size: 12px;
+    }
+
+
+    .working_conditions .item .desc
+    {
+        font-size: 12px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery
+    {
+        padding-top: 52px;
+    }
+
+
+    .gallery .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*-------------
+        Manager
+    -------------*/
+    .manager .item + .item
+    {
+        margin-top: 16px;
     }
 }

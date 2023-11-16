@@ -80,6 +80,18 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .title
+    {
+        font-size: 56px;
+
+        width: 100%;
+    }
+
+
+
     /*----------------
         Typography
     ----------------*/
@@ -230,7 +242,7 @@
     }
 
 
-    .categories .download_price a
+    .categories .download_price .btn
     {
         width: 100px;
         height: 100px;
@@ -244,21 +256,19 @@
     ----------------*/
     .price_list .title
     {
-        font-size: 60px;
+        font-size: 72px;
 
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
 
 
     .price_list .desc
     {
         font-size: 24px;
-
-        width: 412px;
     }
 
 
-    .price_list .download a
+    .price_list .download .btn
     {
         font-size: 22px;
 
@@ -478,6 +488,357 @@
 
 
 
+    /*---------------------
+        Production info
+    ---------------------*/
+    .production_info .row > *
+    {
+        padding-top: 48px;
+        padding-right: 40px;
+        padding-bottom: 24px;
+    }
+
+    .production_info .row > * + *
+    {
+        padding-right: 0;
+        padding-left: 40px;
+    }
+
+
+    .production_info .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------------
+        Production steps
+    ----------------------*/
+    .production_steps .step .head .number
+    {
+        font-size: 80px;
+
+        width: 80px;
+    }
+
+
+    .production_steps .step .head .desc_spoler_btn
+    {
+        top: 60px;
+    }
+
+
+    .production_steps .step .head .desc
+    {
+        margin-left: 344px;
+    }
+
+
+    .production_steps .step .swiper
+    {
+        padding-bottom: 40px;
+    }
+
+
+    .production_steps .step .item .thumb
+    {
+        padding-bottom: 68%;
+    }
+
+
+
+    /*---------------------------
+        Production advantages
+    ---------------------------*/
+    .production_advantages .lines
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .production_advantages .lines:before
+    {
+        height: 80px;
+    }
+
+
+    .production_advantages .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .production_advantages .row > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 80px 0;
+    }
+
+
+    .action_block .info
+    {
+        width: 440px;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: 21px;
+
+        margin-top: 36px;
+    }
+
+
+    .action_block .btn
+    {
+        width: 280px;
+        height: 60px;
+        margin-left: 80px;
+    }
+
+
+
+    /*--------------
+        About_us
+    --------------*/
+    .about_us .row > *
+    {
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-bottom: 24px;
+    }
+
+    .about_us .row > * + *
+    {
+        padding-right: 0;
+        padding-left: 40px;
+    }
+
+
+    .about_us .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    .about_us .history .swiper-slide
+    {
+        width: 440px;
+    }
+
+
+    .about_us .history .item .thumb
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .about_us .history .item .desc
+    {
+        font-size: 16px;
+
+        width: calc(100% - 120px);
+    }
+
+
+
+    .about_us .slogan
+    {
+        font-size: 24px;
+
+        margin-top: 80px;
+    }
+
+
+
+    .about_us .why
+    {
+        margin-top: 68px;
+    }
+
+
+    .about_us .why .image
+    {
+        width: 400px;
+        min-height: 600px;
+    }
+
+
+    .about_us .why .data
+    {
+        width: calc(100% - 440px);
+        padding-top: 0;
+    }
+
+
+    .about_us .why .title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .about_us .why .items > *
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Work about us
+    -------------------*/
+    .work_about_us .stats
+    {
+        margin-left: -60px;
+    }
+
+    .work_about_us .stats .item,
+    .work_about_us .stats .item + .item
+    {
+        width: calc(33.333% - 60px);
+        margin-left: 60px;
+    }
+
+
+
+    /*------------------------
+        Working conditions
+    ------------------------*/
+    .working_conditions .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .working_conditions .row
+    {
+        margin-left: -40px;
+    }
+
+
+    .working_conditions .sep
+    {
+        display: none;
+    }
+
+
+    .working_conditions .item
+    {
+        width: calc(25% - 40px);
+        margin-left: 40px;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+
+    .working_conditions .item .icon
+    {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+
+    .working_conditions .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .working_conditions .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery
+    {
+        padding-top: 60px;
+    }
+
+
+    .gallery .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-------------
+        Manager
+    -------------*/
+    .manager .photo
+    {
+        width: 280px;
+        height: 360px;
+    }
+
+
+    .manager .post
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .manager .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .manager .item .label
+    {
+        margin-bottom: 0;
+    }
+
+
+    .manager .item .val
+    {
+        font-size: 16px;
+    }
+
+    .manager .item .val.name
+    {
+        font-size: 20px;
+    }
+
+
+    .manager .questionnaire
+    {
+        width: 280px;
+    }
+
+
+    .manager .questionnaire .btn
+    {
+        height: 64px;
+    }
+
+
+    .manager .questionnaire .exp
+    {
+        margin-top: 24px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -490,5 +851,28 @@
     footer .links
     {
         display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #search_modal form .input
+    {
+        width: calc(100% - 180px);
+        height: 56px;
+    }
+
+
+    #search_modal form .submit_btn
+    {
+        width: 160px;
+        height: 56px;
+    }
+
+    #search_modal form .submit_btn .icon
+    {
+        margin-right: 16px;
     }
 }

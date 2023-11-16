@@ -52,6 +52,12 @@
     }
 
 
+    .overlay
+    {
+        background: rgba(38, 38, 38, .81);
+    }
+
+
 
     /*--------------
         Fancybox
@@ -133,12 +139,91 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .page_head .cont
+    {
+        height: 438px;
+        min-height: 438px;
+        padding-bottom: 29px;
+    }
+
+
+    .page_head .title
+    {
+        font-size: 32px;
+    }
+
+
+    .page_head .btns
+    {
+        bottom: -24px;
+    }
+
+    .page_head .btns .btn
+    {
+        height: 48px;
+    }
+
+    .page_head .btns .btn + .btn
+    {
+        margin-left: 20px;
+    }
+
+
+
     /*----------------
         Block head
     ----------------*/
     .block_head .link
     {
         display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 15px;
+    }
+
+
+    .form .label
+    {
+        height: 40px;
+        padding: 0 21px;
+    }
+
+
+    .form .input
+    {
+        height: 40px;
+        padding: 0 20px;
+    }
+
+
+    .form .agree
+    {
+        margin-top: 24px;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 24px;
+
+        order: 3;
+        justify-content: center;
     }
 
 
@@ -208,6 +293,31 @@
 
 
     .advantages .item .arrow
+    {
+        display: none;
+    }
+
+
+    .advantages .item .btn
+    {
+        display: flex;
+    }
+
+
+    .advantages .item:hover
+    {
+        position: relative;
+        top: 0;
+    }
+
+    .advantages .item:hover:before
+    {
+        width: 100%;
+
+        box-shadow: none;
+    }
+
+    .advantages .item:hover .exp
     {
         display: none;
     }
@@ -345,64 +455,62 @@
     ----------------*/
     .price_list
     {
-        padding: 60px 0 48px;
+        padding: 76px 0 46px;
     }
 
 
     .price_list .title
     {
         font-size: 40px;
-
-        margin-bottom: 80px;
     }
 
 
     .price_list .desc
     {
         font-size: 18px;
-
-        width: 100%;
     }
 
 
     .price_list .download
     {
         width: 100%;
-        margin-top: 37px;
+        margin-top: 95px;
     }
 
 
-    .price_list .download a:before
+    .price_list .download .btn:before
     {
         display: none;
     }
 
 
-    .price_list .download a
+    .price_list .download .btn
     {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 13px;
 
         width: 100%;
         height: auto;
-        padding: 21px 38px 17px;
+        padding: 19px 38px;
 
         border-width: 3px;
         border-radius: 10px;
     }
 
-    .price_list .download a br
+    .price_list .download .btn br
     {
         display: none;
     }
 
     .price_list .download .type
     {
-        font-size: 18px;
+        font-size: 16px;
 
         top: 18px;
         right: 38px;
         left: auto;
+
+        display: block;
     }
 
 
@@ -698,6 +806,438 @@
 
 
 
+
+    /*----------------------
+        Production steps
+    ----------------------*/
+    .production_steps .step + .step
+    {
+        margin-top: 40px;
+    }
+
+
+    .production_steps .step .head
+    {
+        padding-top: 20px;
+        padding-bottom: 28px;
+
+        border-top: 2px solid #0e3443;
+    }
+
+
+    .production_steps .step .head .number
+    {
+        font-size: 40px;
+
+        width: 40px;
+    }
+
+
+    .production_steps .step .head .name
+    {
+        font-size: 16px;
+
+        width: calc(100% - 40px);
+        padding-right: 60px;
+    }
+
+    .production_steps .step .head .name:after
+    {
+        display: none;
+    }
+
+
+    .production_steps .step .head .desc_spoler_btn
+    {
+        top: 20px;
+    }
+
+
+    .production_steps .step .head .desc
+    {
+        margin-top: 16px;
+        margin-left: 40px;
+    }
+
+
+    .production_steps .step .swiper-button-next,
+    .production_steps .step .swiper-button-prev
+    {
+        top: auto;
+        bottom: 0;
+
+        margin: 0;
+    }
+
+    .production_steps .step .swiper-button-prev
+    {
+        left: 50%;
+
+        margin-left: -48px;
+    }
+
+    .production_steps .step .swiper-button-next
+    {
+        right: 50%;
+
+        margin-right: -48px;
+    }
+
+
+
+    /*---------------------------
+        Production advantages
+    ---------------------------*/
+    .production_advantages .lines
+    {
+        display: none;
+    }
+
+
+    .production_advantages .row
+    {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .production_advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .production_advantages .item
+    {
+        text-align: center;
+    }
+
+
+    .production_advantages .item .desc > *
+    {
+        padding: 0;
+    }
+
+    .production_advantages .item .desc > *:before
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .action_block .info
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 117.5%;
+
+        margin-top: 40px;
+    }
+
+
+    .action_block .btn
+    {
+        width: 236px;
+        height: 64px;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*--------------
+        About_us
+    --------------*/
+    .about_us .history
+    {
+        margin-top: 60px;
+    }
+
+
+    .about_us .history .swiper
+    {
+        padding-bottom: 32px;
+    }
+
+    .about_us .history .swiper-slide
+    {
+        width: 308px;
+    }
+
+
+    .about_us .history .swiper-button-next,
+    .about_us .history .swiper-button-prev
+    {
+        margin-bottom: 0;
+    }
+
+    .about_us .history .swiper-button-prev
+    {
+        left: 50%;
+
+        margin-left: -48px;
+    }
+
+    .about_us .history .swiper-button-next
+    {
+        right: 50%;
+
+        margin-right: -48px;
+    }
+
+
+    .about_us .history .item .thumb
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    .about_us .slogan
+    {
+        font-size: 20px;
+
+        margin-top: 60px;
+    }
+
+
+
+    .about_us .why
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*-------------------
+        Work about us
+    -------------------*/
+    .work_about_us
+    {
+        padding: 60px 0 40px;
+    }
+
+
+    .work_about_us .stats
+    {
+        margin-left: 0;
+    }
+
+
+    .work_about_us .stats .item,
+    .work_about_us .stats .item + .item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .work_about_us .stats .item + .item
+    {
+        margin-top: 24px;
+    }
+
+
+    .work_about_us .stats .item .val
+    {
+        font-size: 36px;
+
+        margin-bottom: 4px;
+    }
+
+
+    .work_about_us .row
+    {
+        padding-top: 28px;
+    }
+
+
+
+    /*------------------------
+        Working conditions
+    ------------------------*/
+    .working_conditions
+    {
+        padding-top: 60px;
+    }
+
+
+    .working_conditions .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .working_conditions .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .working_conditions .item
+    {
+        width: calc(50% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .working_conditions .item .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .working_conditions .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .working_conditions .item .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery .swiper-slide
+    {
+        width: 255px;
+    }
+
+
+    .gallery .swiper-button-next,
+    .gallery .swiper-button-prev
+    {
+        top: 100%;
+        bottom: auto;
+    }
+
+    .gallery .swiper-button-prev
+    {
+        left: 50%;
+
+        margin-left: -48px;
+    }
+
+    .gallery .swiper-button-next
+    {
+        right: 50%;
+
+        margin-right: -48px;
+    }
+
+
+
+    /*-------------
+        Manager
+    -------------*/
+    .manager .photo
+    {
+        margin: 0 auto 28px;
+    }
+
+
+    .manager .data
+    {
+        width: 100%;
+    }
+
+
+    .manager .questionnaire
+    {
+        width: 100%;
+    }
+
+
+    .manager .questionnaire .btn
+    {
+        width: 244px;
+        height: 60px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .manager .questionnaire .exp
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .accordion_item .head .title
+    {
+        font-size: 18px;
+
+        width: calc(100% - 48px);
+    }
+
+
+    .vacancies .accordion_item .head .desc
+    {
+        font-size: 12px;
+
+        width: calc(100% - 100px);
+    }
+
+
+    .vacancies .accordion_item .head .salary
+    {
+        font-size: 18px;
+
+        top: auto;
+        right: 0;
+        bottom: 20px;
+
+        transform: none;
+    }
+
+
+    .vacancies .accordion_item .head .icon
+    {
+        top: -2px;
+
+        width: 14px;
+        height: 20px;
+        margin: 0;
+    }
+
+
+    .vacancies .all_link a
+    {
+        line-height: 56px;
+
+        width: 212px;
+        height: 56px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -781,5 +1321,109 @@
     footer .privacy_police_link
     {
         width: 100%;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #search_modal
+    {
+        padding: 0;
+    }
+
+
+    #search_modal .top
+    {
+        display: flex;
+    }
+
+
+    #search_modal form
+    {
+        padding: 12px 0;
+    }
+
+
+    #search_modal form .input
+    {
+        font-size: 12px;
+
+        width: calc(100% - 51px);
+        height: 39px;
+        padding: 0 22px;
+    }
+
+
+    #search_modal form .submit_btn
+    {
+        width: 39px;
+        height: 39px;
+    }
+
+    #search_modal form .submit_btn .icon
+    {
+        margin: 0;
+    }
+
+    #search_modal form .submit_btn span
+    {
+        display: none;
+    }
+
+
+
+    .custom_modal
+    {
+        right: 100%;
+        left: auto;
+
+        width: 340px;
+    }
+
+    .custom_modal.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    .custom_modal .head
+    {
+        display: block;
+    }
+
+
+    .custom_modal .close_btn
+    {
+        top: 0;
+        right: 0;
+
+        width: 55px;
+        height: 50px;
+    }
+
+
+    .custom_modal .scroll
+    {
+        padding: 106px 24px 48px;
+    }
+
+
+    .custom_modal .modal_title
+    {
+        font-size: 20px;
+    }
+
+
+    .custom_modal .modal_desc
+    {
+        margin-top: 16px;
+    }
+
+
+    .custom_modal .form
+    {
+        margin-top: 36px;
     }
 }
