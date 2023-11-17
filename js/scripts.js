@@ -352,6 +352,25 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 
+	// Плавная прокрутка к якорю
+	const scrollBtns = document.querySelectorAll('.scroll_btn')
+
+	if (scrollBtns) {
+		scrollBtns.forEach(element => {
+			element.addEventListener('click', e => {
+				e.preventDefault()
+
+				let anchor = element.getAttribute('data-anchor')
+
+				document.getElementById(anchor).scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				}, 1000)
+			})
+		})
+	}
+
+
 	if (is_touch_device()) {
 		const subMenus = document.querySelectorAll('header .menu .sub_menu')
 
